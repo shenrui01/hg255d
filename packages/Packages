@@ -1,0 +1,4094 @@
+Package: 6in4
+Version: 10-1
+Depends: ip, kmod-ipv6, kmod-sit
+Provides: 
+Source: package/6in4
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: all
+Installed-Size: 1967
+Filename: 6in4_10-1_all.ipk
+Size: 2656
+MD5Sum: ad63107de70e5a4a72772198b908d212
+Description:  Provides support for 6in4 tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: 6to4
+Version: 7-1
+Depends: ip, kmod-ipv6, kmod-sit
+Provides: 
+Source: package/6to4
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 2786
+Filename: 6to4_7-1_all.ipk
+Size: 3442
+MD5Sum: 88d25f809db1956ab2f48a3834894b45
+Description:  Provides support for 6to4 tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: amule
+Version: 2.2.6-1
+Depends: libpng, libpthread, libncurses, libreadline, libwxbase, libcryptoxx
+Provides: 
+Source: feeds/packages/net/amule
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1752898
+Filename: amule_2.2.6-1_ramips.ipk
+Size: 1749526
+MD5Sum: 3b66529462797d8cf0a8782de7533322
+Description:  A multi-platform eMule-like ed2k client
+
+Package: autossh
+Version: 1.4b-2
+Depends: 
+Provides: 
+Source: feeds/packages/net/autossh
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 12682
+Filename: autossh_1.4b-2_ramips.ipk
+Size: 13257
+MD5Sum: de0795fbc30651fff4083cb230fcc683
+Description:  Autossh client
+
+Package: base-files
+Version: 43.32-r554
+Depends: 
+Provides: 
+Source: package/base-files
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 41026
+Filename: base-files_43.32-r554_ramips.ipk
+Size: 41834
+MD5Sum: 2cbbe65b1d31d862271ab481d9b4b798
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: blkid
+Version: 1.41.11-1
+Depends: libuuid, libblkid
+Provides: 
+Source: package/e2fsprogs
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 5112
+Filename: blkid_1.41.11-1_ramips.ipk
+Size: 5718
+MD5Sum: b775b031bb4514d301c659cefe777b8f
+Description:  Command-line utility to locate/print block device attributes
+
+Package: block-hotplug
+Version: 0.1.0-2.1
+Depends: block-mount, hotplug2
+Provides: 
+Source: package/block-mount
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1748
+Filename: block-hotplug_0.1.0-2.1_ramips.ipk
+Size: 2386
+MD5Sum: 520cca77a2bc24fb3eaf5a87c6b34b3e
+Description:  Scripts used to automatically check and mount filesystem and/or swap
+
+Package: block-mount
+Version: 0.1.0-2.1
+Depends: 
+Provides: 
+Source: package/block-mount
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 3458
+Filename: block-mount_0.1.0-2.1_ramips.ipk
+Size: 4110
+MD5Sum: 2f48010b5abb83e5af117412708c3c90
+Description:  Scripts used to mount and check block devices (filesystems and swap)
+
+Package: busybox
+Version: 1.15.3-3.1
+Depends: 
+Provides: 
+Source: package/busybox
+Section: base
+Status: unknown ok not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 243830
+Filename: busybox_1.15.3-3.1_ramips.ipk
+Size: 243830
+MD5Sum: 4a4309e2b0a6bf104cd809c32014e8ed
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: chat
+Version: 2.4.5-4
+Depends: 
+Provides: 
+Source: package/ppp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ramips
+Installed-Size: 8741
+Filename: chat_2.4.5-4_ramips.ipk
+Size: 9371
+MD5Sum: adef0b0e7fbfb3f617991814069f1777
+Description:  This package contains an utility to establish conversation with other PPP servers
+ (via a modem).
+
+Package: comgt
+Version: 0.32-9
+Depends: chat, huaweiaktbbo
+Provides: 
+Source: package/comgt
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 23384
+Filename: comgt_0.32-9_ramips.ipk
+Size: 24062
+MD5Sum: 81214a349dcbd2c705ed8bcc5abd3815
+Description:  comgt is a scripting language interpreter useful for establishing 
+ communications on serial lines and through PCMCIA modems as well as GPRS 
+ and 3G datacards.
+
+Package: crda
+Version: 1.1.1-1
+Depends: libnl-tiny
+Provides: 
+Source: package/crda
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 8957
+Filename: crda_1.1.1-1_ramips.ipk
+Size: 9752
+MD5Sum: 19b2fa84b13c5bae8c44270a91c91ae5
+Description:  This is the Central Regulatory Domain Agent for Linux. It serves one
+ purpose: tell Linux kernel what to enforce. In essence it is a udev
+ helper for communication between the kernel and userspace. You only
+ need to run this manually for debugging purposes. For manual changing
+ of regulatory domains use iw (iw reg set) or wpa_supplicant (feature
+ yet to be added).
+
+Package: ddns-scripts
+Version: 1.0.0-15
+Depends: 
+Provides: 
+Source: feeds/packages/net/ddns-scripts
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: all
+Installed-Size: 4589
+Filename: ddns-scripts_1.0.0-15_all.ipk
+Size: 5248
+MD5Sum: 33890450000338dbe7b57277460bb5d6
+Description:  A highly configurable set of scripts for doing
+ dynamic dns updates
+
+Package: dhcp6-server
+Version: 1.0-1
+Depends: libncurses
+Provides: 
+Source: feeds/packages/ipv6/dhcp6
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 13712
+Filename: dhcp6-server_1.0-1_ramips.ipk
+Size: 14383
+MD5Sum: 1cb9ee53a62283eaf47edf5869ff6874
+Description:  IPv6 DHCP server
+
+Package: dnsmasq
+Version: 2.55-6.1
+Depends: 
+Provides: 
+Source: package/dnsmasq
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 82037
+Filename: dnsmasq_2.55-6.1_ramips.ipk
+Size: 82658
+MD5Sum: 6ae2390c9f88904a32456b7d62bf95f9
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 0.53.1-5
+Depends: 
+Provides: 
+Source: package/dropbear
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 87973
+Filename: dropbear_0.53.1-5_ramips.ipk
+Size: 88531
+MD5Sum: db9a4cc60b354661dc3a31180d0a9f7a
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: e2fsprogs
+Version: 1.41.11-1
+Depends: libblkid, libuuid, libext2fs, libpthread
+Provides: 
+Source: package/e2fsprogs
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 122833
+Filename: e2fsprogs_1.41.11-1_ramips.ipk
+Size: 123436
+MD5Sum: e0f1278ad1f9887ff10ae6b4895e0c72
+Description:  This package contains essential ext2 filesystem utilities which consists of 
+ e2fsck, mke2fs, debugfs, dumpe2fs, tune2fs, and most of the other core ext2 
+ filesystem utilities.
+
+Package: etherwake
+Version: 1.09-2
+Depends: 
+Provides: 
+Source: feeds/packages/net/etherwake
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 5218
+Filename: etherwake_1.09-2_ramips.ipk
+Size: 5994
+MD5Sum: 6ceef30e3741676f579c3f10fc2873f7
+Description:  You can wake up WOL compliant Computers which have been powered down to 
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you 
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: fdisk
+Version: 2.13.0.1-4
+Depends: 
+Provides: 
+Source: package/util-linux-ng
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 39001
+Filename: fdisk_2.13.0.1-4_ramips.ipk
+Size: 39673
+MD5Sum: eba2f46c1f7b129c7f7dd972eacc7e8e
+Description:  This package contains a utility for managing disk partition tables.
+
+Package: firewall
+Version: 2-34.8
+Depends: iptables, iptables-mod-conntrack, iptables-mod-nat
+Provides: 
+Source: package/firewall
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 12223
+Filename: firewall_2-34.8_all.ipk
+Size: 12915
+MD5Sum: de48666b9b993a5b29dc63755f31ef13
+Description:  UCI based firewall for OpenWrt
+
+Package: hd-idle
+Version: 1.03-1
+Depends: 
+Provides: 
+Source: feeds/packages/utils/hd-idle
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4938
+Filename: hd-idle_1.03-1_ramips.ipk
+Size: 5551
+MD5Sum: 78ad71f4ad99973a760163e8604e0a27
+Description:  Another idle-daemon for attached hard drives
+
+Package: hotplug2
+Version: 1.0-beta-3
+Depends: 
+Provides: 
+Source: package/hotplug2
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 13051
+Filename: hotplug2_1.0-beta-3_ramips.ipk
+Size: 13756
+MD5Sum: 2c19e0c9169bc316e5d3123733039f56
+Description:  Hotplug2 is a trivial replacement of some of the UDev functionality
+ in a tiny pack, intended for Linux early userspace: Init RAM FS and InitRD.
+ This is an implementation of Hotplug2-1.0-beta
+
+Package: huaweiaktbbo
+Version: 1
+Depends: libusb, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-acm, usb-modeswitch, usb-modeswitch-data
+Provides: 
+Source: feeds/packages/utils/huaweiaktbbo
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2173
+Filename: huaweiaktbbo_1_ramips.ipk
+Size: 2857
+MD5Sum: 0e5fc555cb36211924abc9a9aefa716e
+Description:  Huawei E156/E169/E220 activation tool
+
+Package: ip6tables
+Version: 1.4.6-3.1
+Depends: kmod-ip6tables, libip6tc, libxtables
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 38876
+Filename: ip6tables_1.4.6-3.1_ramips.ipk
+Size: 39540
+MD5Sum: 9f80d222609dcaf8cfc01ef7ac48b075
+Description:  IPv6 firewall administration tool
+
+Package: ip
+Version: 2.6.35-3
+Depends: 
+Provides: 
+Source: package/iproute2
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 85053
+Filename: ip_2.6.35-3_ramips.ipk
+Size: 85580
+MD5Sum: a97fed5e88fff30bad65c1a44c32ec6f
+Description:  Routing control utility
+
+Package: iptables-mod-connlimit
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-connlimit
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2507
+Filename: iptables-mod-connlimit_1.4.6-3.1_ramips.ipk
+Size: 3170
+MD5Sum: 942ea9fec282cb4c2e6e413546490702
+Description:  iptables extensions for  connlimit matching
+ 
+ Matches:
+ -  connlimit
+ 
+
+Package: iptables-mod-conntrack-extra
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-conntrack-extra
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 14250
+Filename: iptables-mod-conntrack-extra_1.4.6-3.1_ramips.ipk
+Size: 14884
+MD5Sum: 2035a89d8e6e6bb13e87079d87aa8d6c
+Description:  Extra iptables extensions for connection tracking.
+ 
+ Matches:
+ - connbytes
+ - connmark
+ - recent
+ - helper
+ 
+ Targets:
+ - CONNMARK
+ 
+
+Package: iptables-mod-conntrack
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-conntrack
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2552
+Filename: iptables-mod-conntrack_1.4.6-3.1_ramips.ipk
+Size: 3213
+MD5Sum: 020ae6334844a6c2677186b864cd5e5e
+Description:  Basic iptables extensions for connection tracking.
+ 
+ Matches:
+ - state
+ - conntrack
+ 
+ Targets:
+ - NOTRACK
+ 
+ Tables:
+ - raw
+ 
+
+Package: iptables-mod-filter
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-filter
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 14722
+Filename: iptables-mod-filter_1.4.6-3.1_ramips.ipk
+Size: 15350
+MD5Sum: db56f7959232169ad4de27e48fb854bd
+Description:  iptables extensions for packet content inspection.
+ Includes support for:
+ 
+ Matches:
+ - layer7
+ - string
+ 
+
+Package: iptables-mod-hashlimit
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-hashlimit
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4922
+Filename: iptables-mod-hashlimit_1.4.6-3.1_ramips.ipk
+Size: 5567
+MD5Sum: eee8754d9741073b72be7dea93604e69
+Description:  iptables extensions for hashlimit matching
+ 
+ Matches:
+ - hashlimit
+ 
+
+Package: iptables-mod-imq
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-imq
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1566
+Filename: iptables-mod-imq_1.4.6-3.1_ramips.ipk
+Size: 2213
+MD5Sum: a512b21f251e6578507073186e362b8e
+Description:  iptables extension for IMQ support.
+ 
+ Targets:
+ - IMQ
+ 
+
+Package: iptables-mod-ipopt
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-ipopt
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 24222
+Filename: iptables-mod-ipopt_1.4.6-3.1_ramips.ipk
+Size: 24889
+MD5Sum: 3afc8fd04a09584aff90a3ab3b569162
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - mark
+ - statistic
+ - tcpmss
+ - time
+ - unclean
+ - hl
+ - ttl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - MARK
+ - HL
+ - TTL
+ - IPID
+ 
+
+Package: iptables-mod-nat
+Version: 1.4.6-3.1
+Depends: iptables, kmod-ipt-nat
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4479
+Filename: iptables-mod-nat_1.4.6-3.1_ramips.ipk
+Size: 5089
+MD5Sum: 23afb0394e07d6c1efdd284eabf0ed6d
+Description:  iptables extensions for basic NAT targets.
+ 
+ Targets:
+ - SNAT
+ - DNAT
+ - MASQUERADE
+ 
+ Tables:
+ - nat
+ 
+
+Package: iptables-utils
+Version: 1.4.6-3.1
+Depends: iptables
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 105
+Filename: iptables-utils_1.4.6-3.1_ramips.ipk
+Size: 760
+MD5Sum: fcbf28577ed1eaf864a4e137ed76fd62
+Description:  This is a dummy package for backwards compatibility reasons.
+ Everything that used to be provided by this package is part
+ of iptables now.
+
+Package: iptables
+Version: 1.4.6-3.1
+Depends: kmod-ipt-core, libip4tc, libxtables
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 53630
+Filename: iptables_1.4.6-3.1_ramips.ipk
+Size: 54265
+MD5Sum: d776382de760469102b191807a131d2a
+Description:  IPv4 firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - limit
+ - mac
+ - multiport
+ 
+ Targets:
+ - ACCEPT
+ - DROP
+ - REJECT
+ - LOG
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ 
+
+Package: iw
+Version: 0.9.22-2
+Depends: libnl-tiny
+Provides: 
+Source: package/iw
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 37112
+Filename: iw_0.9.22-2_ramips.ipk
+Size: 37809
+MD5Sum: b2f4086911070fcec69f5eb37dc906b7
+Description:  cfg80211 interface configuration utility
+
+Package: kernel
+Version: 2.6.32.59-1
+Depends: 
+Provides: 
+Source: package/kernel
+Section: sys
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 104
+Filename: kernel_2.6.32.59-1_ramips.ipk
+Size: 681
+MD5Sum: 671fc657a129a1411126a2263dc6ff10
+Description:  Virtual kernel package
+
+Package: kmod-ath9k-common
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-ath
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 116050
+Filename: kmod-ath9k-common_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 114526
+MD5Sum: be18c9cb978dd8bc110951a70723b833
+Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
+
+Package: kmod-ath9k-htc
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-ath9k-common, kmod-usb-core
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 108850
+Filename: kmod-ath9k-htc_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 108911
+MD5Sum: 8141706f1e4a2f86f2baa488773bc977
+Description:  This module adds support for wireless adapters based on
+ Atheros USB AR9271 and AR7010 family of chipsets.
+
+Package: kmod-ath
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-mac80211
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 9835
+Filename: kmod-ath_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 10616
+MD5Sum: af6c5082a5406c6a51769c010fba4bc8
+Description:  This module contains some common parts needed by Atheros Wireless drivers.
+
+Package: kmod-button-hotplug
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/button-hotplug
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 3119
+Filename: kmod-button-hotplug_2.6.32.59-1_ramips.ipk
+Size: 3735
+MD5Sum: ea989b5564ad1d7332334ca7a0691f6f
+Description:  Kernel module to generate button hotplug events
+
+Package: kmod-carl9170
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-mac80211, kmod-ath, kmod-usb-core, kmod-input-core
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 64584
+Filename: kmod-carl9170_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 65291
+MD5Sum: 456de740f4fdb10a118c5d4c69e283cc
+Description:  Driver for Atheros AR9170 USB sticks
+
+Package: kmod-cfg80211
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), wireless-tools, iw, crda
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 106885
+Filename: kmod-cfg80211_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 107541
+MD5Sum: 928cfcb9220bb4d34e823e7f543d7f30
+Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
+
+Package: kmod-crc-ccitt
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1585
+Filename: kmod-crc-ccitt_2.6.32.59-1_ramips.ipk
+Size: 2323
+MD5Sum: e08a72c179e47843689ce8d6ed3f23db
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-crc-itu-t
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1594
+Filename: kmod-crc-itu-t_2.6.32.59-1_ramips.ipk
+Size: 2340
+MD5Sum: 76c7cf486ac8ea0d61dbd33c079d6fc9
+Description:  Kernel module for CRC ITU-T V.41 support
+
+Package: kmod-crc16
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1508
+Filename: kmod-crc16_2.6.32.59-1_ramips.ipk
+Size: 2249
+MD5Sum: c5babdbca2d9fd121ec3181ac16e8caf
+Description:  Kernel module for CRC16 support
+
+Package: kmod-crypto-aes
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 13682
+Filename: kmod-crypto-aes_2.6.32.59-1_ramips.ipk
+Size: 13917
+MD5Sum: 29c5fba94df9a754e663ff29dd565c99
+Description:  AES cipher CryptoAPI module
+
+Package: kmod-crypto-arc4
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1270
+Filename: kmod-crypto-arc4_2.6.32.59-1_ramips.ipk
+Size: 2028
+MD5Sum: 9cd1efe6cbf5cae802499135a8cf4fe8
+Description:  ARC4 (RC4) cipher CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4574
+Filename: kmod-crypto-core_2.6.32.59-1_ramips.ipk
+Size: 5256
+MD5Sum: 1d23eeb2c3325070b244ecfb60b6dc3b
+Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-md5
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1572
+Filename: kmod-crypto-md5_2.6.32.59-1_ramips.ipk
+Size: 2327
+MD5Sum: b8aac71e1b82648912c40f14d645eaa2
+Description:  MD5 digest CryptoAPI module
+
+Package: kmod-crypto-sha1
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1809
+Filename: kmod-crypto-sha1_2.6.32.59-1_ramips.ipk
+Size: 2566
+MD5Sum: f45c285a73180cb95f4f4f6ef94850e4
+Description:  SHA1 digest CryptoAPI module
+
+Package: kmod-eeprom-93cx6
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1563
+Filename: kmod-eeprom-93cx6_2.6.32.59-1_ramips.ipk
+Size: 2309
+MD5Sum: b8305618605d605107b75c35ac409852
+Description:  Kernel module for EEPROM 93CX6 support
+
+Package: kmod-fs-ext3
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-fs-mbcache
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 86685
+Filename: kmod-fs-ext3_2.6.32.59-1_ramips.ipk
+Size: 87064
+MD5Sum: 4f3ac59076c52d768d96bcfad0f26295
+Description:  Kernel module for EXT3 filesystem support
+
+Package: kmod-fs-ext4
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-crc16, kmod-fs-mbcache
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 167901
+Filename: kmod-fs-ext4_2.6.32.59-1_ramips.ipk
+Size: 167934
+MD5Sum: 37a9f54e4c7cc7b934eda378a961c297
+Description:  Kernel module for EXT4 filesystem support
+
+Package: kmod-fs-mbcache
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4185
+Filename: kmod-fs-mbcache_2.6.32.59-1_ramips.ipk
+Size: 4913
+MD5Sum: d2827a2ae37786515653b39353a399ea
+Description:  mbcache (used by ext2/ext3/ext4)
+
+Package: kmod-fs-nfs-common
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 132310
+Filename: kmod-fs-nfs-common_2.6.32.59-1_ramips.ipk
+Size: 132380
+MD5Sum: 8e04317c41e1bedfdee605263c5f603a
+Description:  Common NFS filesystem modules
+
+Package: kmod-fs-nfs
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-fs-nfs-common
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 85532
+Filename: kmod-fs-nfs_2.6.32.59-1_ramips.ipk
+Size: 85826
+MD5Sum: ab3f5e39408356b3c7db954e094c1f8c
+Description:  Kernel module for NFS support
+
+Package: kmod-fs-ntfs
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 55754
+Filename: kmod-fs-ntfs_2.6.32.59-1_ramips.ipk
+Size: 56198
+MD5Sum: 9c40897546c99ddcbb3e83ef2deae198
+Description:  Kernel module for NTFS filesystem support
+
+Package: kmod-fs-vfat
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 37897
+Filename: kmod-fs-vfat_2.6.32.59-1_ramips.ipk
+Size: 38561
+MD5Sum: 3e687789f4ddc30e36f31b223f622996
+Description:  Kernel module for VFAT filesystem support
+
+Package: kmod-fuse
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/fuse
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 36772
+Filename: kmod-fuse_2.6.32.59-1_ramips.ipk
+Size: 37465
+MD5Sum: e26535f21531dbcf922bb67d851b0cac
+Description:  FUSE (Filesystem in UserSpacE)
+ This package contains the FUSE kernel module.
+
+Package: kmod-gre
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 9435
+Filename: kmod-gre_2.6.32.59-1_ramips.ipk
+Size: 10048
+MD5Sum: 7a7df9d6f5d8cc9564542ab9f93b1a27
+Description:  Generic Routing Encapsulation support
+
+Package: kmod-input-core
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 14370
+Filename: kmod-input-core_2.6.32.59-1_ramips.ipk
+Size: 15047
+MD5Sum: 6ba45ae49da84688944a45fa68021e30
+Description:  Kernel modules for support of input device
+
+Package: kmod-input-gpio-buttons
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-input-polldev
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2745
+Filename: kmod-input-gpio-buttons_2.6.32.59-1_ramips.ipk
+Size: 3482
+MD5Sum: 69203befd0701ffccb8e8dfbafbfa8de
+Description:  Kernel module for support polled GPIO buttons input device
+
+Package: kmod-input-polldev
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-input-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2337
+Filename: kmod-input-polldev_2.6.32.59-1_ramips.ipk
+Size: 3061
+MD5Sum: cff168344306045bc76a5a60738ad89e
+Description:  Kernel module for support of polled input devices
+
+Package: kmod-ip6tables
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipv6
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 33477
+Filename: kmod-ip6tables_2.6.32.59-1_ramips.ipk
+Size: 34255
+MD5Sum: 18d90b850d6015b77597bdc618694b4e
+Description:  Netfilter IPv6 firewalling support
+
+Package: kmod-ipt-connlimit
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core, kmod-ipt-conntrack
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2997
+Filename: kmod-ipt-connlimit_2.6.32.59-1_ramips.ipk
+Size: 3729
+MD5Sum: c6cbf2a06a1dd39a3df7051b1d177a81
+Description:  Kernel modules support for a connlimit connection tracking 
+
+Package: kmod-ipt-conntrack-extra
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core, kmod-ipt-conntrack
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 11320
+Filename: kmod-ipt-conntrack-extra_2.6.32.59-1_ramips.ipk
+Size: 12096
+MD5Sum: 5262bee583c1b75c7e30e02da2f51766
+Description:  Netfilter (IPv4) extra kernel modules for connection tracking
+ Includes:
+ - connbytes
+ - connmark/CONNMARK
+ - conntrack
+ - helper
+ - recent
+
+Package: kmod-ipt-conntrack
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 37756
+Filename: kmod-ipt-conntrack_2.6.32.59-1_ramips.ipk
+Size: 38571
+MD5Sum: 5a816a41542fcf9e6d423710aa0c5d34
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag (2.6)
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 65608
+Filename: kmod-ipt-core_2.6.32.59-1_ramips.ipk
+Size: 66362
+MD5Sum: c8c8e36a95eade8eb46fed76f98b4589
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment (2.6)
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-filter
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core, kmod-textsearch
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 9907
+Filename: kmod-ipt-filter_2.6.32.59-1_ramips.ipk
+Size: 10693
+MD5Sum: 7c3267a78c93e5d39ed61028065dc0bf
+Description:  Netfilter (IPv4) kernel modules for packet content inspection
+ Includes:
+ - layer7
+ - string
+
+Package: kmod-ipt-hashlimit
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 6634
+Filename: kmod-ipt-hashlimit_2.6.32.59-1_ramips.ipk
+Size: 7338
+MD5Sum: c0b9a30a46d5c9c23be66f7a1571a247
+Description:  Kernel modules support for the hashlimit bucket match module
+
+Package: kmod-ipt-imq
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4661
+Filename: kmod-ipt-imq_2.6.32.59-1_ramips.ipk
+Size: 5407
+MD5Sum: 8f8d10a34ac3575c64abb6a8dd5f2ec0
+Description:  Kernel support for Intermediate Queueing devices
+
+Package: kmod-ipt-ipopt
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 11234
+Filename: kmod-ipt-ipopt_2.6.32.59-1_ramips.ipk
+Size: 12088
+MD5Sum: 520b2f9d8a9b2533039ebd862833378e
+Description:  Netfilter (IPv4) modules for matching/changing IP packet options
+ Includes:
+ - CLASSIFY
+ - dscp/DSCP
+ - ecn/ECN
+ - hl/HL (2.6.30 and later)
+ - length
+ - mark/MARK
+ - statistic (2.6)
+ - tcpmss
+ - time
+ - tos/TOS (prior to 2.6.25)
+ - ttl/TTL (prior to 2.6.30)
+ - IPID
+ - unclean
+
+Package: kmod-ipt-nat
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core, kmod-ipt-conntrack
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 12195
+Filename: kmod-ipt-nat_2.6.32.59-1_ramips.ipk
+Size: 12990
+MD5Sum: 5bb1aba5800d4c88ea9647edf621983b
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nathelper-extra
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core, kmod-ipt-nat, kmod-textsearch
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 54410
+Filename: kmod-ipt-nathelper-extra_2.6.32.59-1_ramips.ipk
+Size: 55211
+MD5Sum: 620b154c0604e824f7a01a3caf22df3e
+Description:  Extra Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - amanda
+ - h323
+ - mms
+ - pptp (2.6)
+ - proto_gre (2.6)
+ - rtsp
+ - sip (2.6)
+ - snmp_basic
+
+Package: kmod-ipt-nathelper
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipt-core, kmod-ipt-nat
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 11164
+Filename: kmod-ipt-nathelper_2.6.32.59-1_ramips.ipk
+Size: 11916
+MD5Sum: b8a597abd9d606124dbcea1547144b13
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-iptunnel4
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2132
+Filename: kmod-iptunnel4_2.6.32.59-1_ramips.ipk
+Size: 2833
+MD5Sum: ec26838b28927ef3eb9544bd045730da
+Description:  Kernel modules for IPv4 tunneling
+
+Package: kmod-ipv6
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 149460
+Filename: kmod-ipv6_2.6.32.59-1_ramips.ipk
+Size: 149586
+MD5Sum: 316f6d28116acdf8e5e8117e9cf99946
+Description:  Kernel modules for IPv6 support
+
+Package: kmod-leds-gpio
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2310
+Filename: kmod-leds-gpio_2.6.32.59-1_ramips.ipk
+Size: 3012
+MD5Sum: 92c3b14005c5a53d38225907031dd47f
+Description:  Kernel module for LEDs on GPIO lines
+
+Package: kmod-ledtrig-usbdev
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2743
+Filename: kmod-ledtrig-usbdev_2.6.32.59-1_ramips.ipk
+Size: 3490
+MD5Sum: df9f7fa3fa0d7ea00ffabcdfa261ac09
+Description:  Kernel module to drive LEDs based on USB device presence/activity.
+
+Package: kmod-mac80211-hwsim
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-mac80211
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 13363
+Filename: kmod-mac80211-hwsim_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 14094
+MD5Sum: c206d45b45f264509c3e114287645ad3
+Description:  mac80211 HW simulation device
+
+Package: kmod-mac80211
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-aes, kmod-cfg80211
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 156994
+Filename: kmod-mac80211_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 156747
+MD5Sum: fc90e8e56326c07094b62b97c5a0c5b9
+Description:  Generic IEEE 802.11 Networking Stack (mac80211)
+
+Package: kmod-macvlan
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4786
+Filename: kmod-macvlan_2.6.32.59-1_ramips.ipk
+Size: 5565
+MD5Sum: 01646bb58ada07c9d5799869776b4593
+Description:  A kernel module which allows one to create virtual interfaces that
+ map packets to or from specific MAC addresses to a particular interface.
+
+Package: kmod-mppe
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ppp, kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-sha1
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4998
+Filename: kmod-mppe_2.6.32.59-1_ramips.ipk
+Size: 5743
+MD5Sum: 05e875da25561f359989eb32489af9b8
+Description:  Kernel modules for Microsoft PPP compression/encryption
+
+Package: kmod-ppp
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-crc-ccitt
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 23894
+Filename: kmod-ppp_2.6.32.59-1_ramips.ipk
+Size: 24575
+MD5Sum: 64f842d17d950e7876391ccce3cad270
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoe
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ppp
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 8465
+Filename: kmod-pppoe_2.6.32.59-1_ramips.ipk
+Size: 9237
+MD5Sum: 7f5f2e6ad03264da8bcf0c9f8667a0a1
+Description:  Kernel modules for PPPoE (PPP over Ethernet) support
+
+Package: kmod-rt2500-usb
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-rt2x00-usb
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 10470
+Filename: kmod-rt2500-usb_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 11084
+MD5Sum: 66f8b2ccde774fed6c07b9193ea60766
+Description:  Ralink Drivers for RT2x00 cards (RT2500 USB)
+
+Package: kmod-rt2800-lib
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-rt2x00-lib, kmod-rt2x00-soc
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 21656
+Filename: kmod-rt2800-lib_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 22364
+MD5Sum: eef8affdb274711accdaf51a56cd985f
+Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)
+
+Package: kmod-rt2800-pci
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-rt2x00-pci, kmod-rt2800-lib, kmod-crc-ccitt, kmod-rt2x00-soc
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 9117
+Filename: kmod-rt2800-pci_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 9922
+MD5Sum: feb5283d70d2e76eea216aaa5cc98eeb
+Description:  Ralink Drivers for RT2x00 cards (RT2860 PCI)
+
+Package: kmod-rt2x00-lib
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-mac80211, kmod-crc-itu-t
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 21740
+Filename: kmod-rt2x00-lib_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 22450
+MD5Sum: 4d55e41e899b9a491f41d6f69984cded
+Description:  Ralink Drivers for RT2x00 cards (LIB)
+
+Package: kmod-rt2x00-pci
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-rt2x00-lib, kmod-eeprom-93cx6
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 2512
+Filename: kmod-rt2x00-pci_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 3250
+MD5Sum: c7d0aae9226b46db545349b0a4f58a5c
+Description:  Ralink Drivers for RT2x00 cards (PCI)
+
+Package: kmod-rt2x00-soc
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-rt2x00-lib
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 1928
+Filename: kmod-rt2x00-soc_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 2702
+MD5Sum: 3c06817c81f7c6b2084a2467b0b64778
+Description:  Ralink Drivers for RT2x00 cards (SoC)
+
+Package: kmod-rt2x00-usb
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-rt2x00-lib, kmod-usb-core
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 6621
+Filename: kmod-rt2x00-usb_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 7387
+MD5Sum: 2115e4a0a6f1b93c74d813bee45f5471
+Description:  Ralink Drivers for RT2x00 cards (USB)
+
+Package: kmod-rt73-usb
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-rt2x00-usb
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 15456
+Filename: kmod-rt73-usb_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 16141
+MD5Sum: f523babe857d1f9690ddef4059acd148
+Description:  Ralink Drivers for RT2x00 cards (RT73 USB)
+
+Package: kmod-rtl8187
+Version: 2.6.32.59+2011-12-01-1
+Depends: kernel (=2.6.32.59-1), kmod-eeprom-93cx6, kmod-mac80211, kmod-usb-core
+Provides: 
+Source: package/mac80211
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 22557
+Filename: kmod-rtl8187_2.6.32.59+2011-12-01-1_ramips.ipk
+Size: 23165
+MD5Sum: d22532f2a000c851b828f932d255b676
+Description:  Realtek Drivers for RTL818x devices (RTL8187 USB)
+
+Package: kmod-sched
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 80066
+Filename: kmod-sched_2.6.32.59-1_ramips.ipk
+Size: 80705
+MD5Sum: bc0f5c567654e8729a60bed0a93ddd5b
+Description:  Kernel schedulers for IP traffic
+
+Package: kmod-scsi-core
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 72412
+Filename: kmod-scsi-core_2.6.32.59-1_ramips.ipk
+Size: 72839
+MD5Sum: d1c7d06c854d48804dfdde09901e8b0d
+Description:  SCSI device support
+
+Package: kmod-sit
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-ipv6, kmod-iptunnel4
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 7125
+Filename: kmod-sit_2.6.32.59-1_ramips.ipk
+Size: 7870
+MD5Sum: 1b447387790fda04002fe61b66684896
+Description:  Kernel modules for IPv6-in-IPv4 tunnelling
+
+Package: kmod-textsearch
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 4142
+Filename: kmod-textsearch_2.6.32.59-1_ramips.ipk
+Size: 4868
+MD5Sum: b20fac1eaac71f9e41d83b3e4ed83b81
+Description:  Textsearch support is selected if needed
+
+Package: kmod-tun
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 9085
+Filename: kmod-tun_2.6.32.59-1_ramips.ipk
+Size: 9823
+MD5Sum: a28a6d861c40cb1e4a35899c5121d23b
+Description:  Kernel support for the TUN/TAP tunneling device
+
+Package: kmod-usb-acm
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 11607
+Filename: kmod-usb-acm_2.6.32.59-1_ramips.ipk
+Size: 12290
+MD5Sum: abae779b553d8e3ed6c60c9099e26246
+Description:  Kernel support for USB ACM devices (modems/isdn controllers)
+
+Package: kmod-usb-core
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 72385
+Filename: kmod-usb-core_2.6.32.59-1_ramips.ipk
+Size: 72883
+MD5Sum: ad10df7a2cc317875ad13b09b7e65f0e
+Description:  Kernel support for USB
+
+Package: kmod-usb-rt305x-dwc_otg
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 64166
+Filename: kmod-usb-rt305x-dwc_otg_2.6.32.59-1_ramips.ipk
+Size: 64127
+MD5Sum: f19698db0709644dd46e35e6e8138689
+Description:  This driver provides USB Device Controller support for the
+ Synopsys DesignWare USB OTG Core used in the Ralink RT305X SoCs.
+
+Package: kmod-usb-serial-motorola-phone
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-serial
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1370
+Filename: kmod-usb-serial-motorola-phone_2.6.32.59-1_ramips.ipk
+Size: 2134
+MD5Sum: ff697fc0830c761f330268b0af17c874
+Description:  Kernel support for Motorola usb phone
+
+Package: kmod-usb-serial-option
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-serial
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 14486
+Filename: kmod-usb-serial-option_2.6.32.59-1_ramips.ipk
+Size: 13928
+MD5Sum: 8ad0e673bebc2f23adadacddfdf4eaac
+Description:  Kernel support for Option HSDPA modems
+
+Package: kmod-usb-serial
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 18106
+Filename: kmod-usb-serial_2.6.32.59-1_ramips.ipk
+Size: 18837
+MD5Sum: 6dd07fca09b849f9f717d1a603343912
+Description:  Kernel support for USB-to-Serial converters
+
+Package: kmod-usb-storage-extras
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-storage
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 37220
+Filename: kmod-usb-storage-extras_2.6.32.59-1_ramips.ipk
+Size: 38128
+MD5Sum: 65f5fbb52d36f78600d06868cb52e2eb
+Description:  Say Y here if you want to have some more drivers,
+ such as for SmartMedia card readers.
+
+Package: kmod-usb-storage
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-core, kmod-scsi-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 27134
+Filename: kmod-usb-storage_2.6.32.59-1_ramips.ipk
+Size: 27021
+MD5Sum: f0b2e4ceb32ec820bfe72edaca0443ef
+Description:  Kernel support for USB Mass Storage devices
+
+Package: kmod-usb2
+Version: 2.6.32.59-1
+Depends: kernel (=2.6.32.59-1), kmod-usb-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 22275
+Filename: kmod-usb2_2.6.32.59-1_ramips.ipk
+Size: 22929
+MD5Sum: 38e66ec79cd776951a9d1869697c0ce3
+Description:  Kernel support for USB2 (EHCI) controllers
+
+Package: libblkid
+Version: 1.41.11-1
+Depends: 
+Provides: 
+Source: package/e2fsprogs
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 18345
+Filename: libblkid_1.41.11-1_ramips.ipk
+Size: 18943
+MD5Sum: 1f9f0fb9c620e6ef73a2fe86b0815c87
+Description:  The blkid library which allows system programs like fsck and mount to 
+ quickly and easily find block devices by filesystem UUID and LABEL.
+
+Package: libc
+Version: 0.9.30.1-43.32
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 223697
+Filename: libc_0.9.30.1-43.32_ramips.ipk
+Size: 223915
+MD5Sum: 1aaf4624539681ce038a1200e825cdac
+Description:  C library
+
+Package: libcryptoxx
+Version: 5.6.0-2
+Depends: libpthread
+Provides: 
+Source: feeds/packages/libs/libcrypto++
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1125292
+Filename: libcryptoxx_5.6.0-2_ramips.ipk
+Size: 1118641
+MD5Sum: aadfc73931d71f4643fc3e1c18e46bcc
+Description:  Crypto++ is library for creating C++ programs which use cryptographic algorithms
+
+Package: libcurl
+Version: 7.21.3-1
+Depends: libopenssl, zlib
+Provides: 
+Source: feeds/packages/libs/curl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 129506
+Filename: libcurl_7.21.3-1_ramips.ipk
+Size: 129959
+MD5Sum: 4bf665ea2f5d47750fc4d534f5f9039c
+Description:  A client-side URL transfer library
+
+Package: libcyassl
+Version: 1.4.0-2
+Depends: 
+Provides: 
+Source: package/cyassl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 66444
+Filename: libcyassl_1.4.0-2_ramips.ipk
+Size: 66525
+MD5Sum: 1e00b17d81e33be9372c927f2e25b844
+Description:  CyaSSL is an SSL library optimized for small footprint, both on disk and for
+ memory use.
+
+Package: libdlna
+Version: 0.2.3-1
+Depends: libffmpeg
+Provides: 
+Source: feeds/packages/libs/libdlna
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 17758
+Filename: libdlna_0.2.3-1_ramips.ipk
+Size: 17863
+MD5Sum: 94b46986ed8ed10bc136b72bcda82454
+Description:  libdlna aims at being the reference open-source implementation of DLNA 
+ (Digital Living Network Alliance) standards. Its primary goal is to 
+ provide DLNA support to uShare, an embedded DLNA & UPnP A/V Media Server, 
+ but it will be used to build both DLNA servers and players in the long 
+ term.
+
+Package: libevent2
+Version: 2.0.12-1
+Depends: 
+Provides: 
+Source: feeds/packages/libs/libevent2
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 96151
+Filename: libevent2_2.0.12-1_ramips.ipk
+Size: 97009
+MD5Sum: 6f6d0ffca408545c407cb0c0b9d60540
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
+
+Package: libexpat
+Version: 2.0.1-1
+Depends: 
+Provides: 
+Source: feeds/packages/libs/expat
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 52118
+Filename: libexpat_2.0.1-1_ramips.ipk
+Size: 52596
+MD5Sum: 741acdd5b7935e28d3db7affb04a5178
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libext2fs
+Version: 1.41.11-1
+Depends: 
+Provides: 
+Source: package/e2fsprogs
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 77161
+Filename: libext2fs_1.41.11-1_ramips.ipk
+Size: 77740
+MD5Sum: 810ce466e8b36f222ac98379a7594bd3
+Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
+
+Package: libffmpeg
+Version: 0.5.4-2
+Depends: libpthread, zlib
+Provides: 
+Source: feeds/packages/multimedia/ffmpeg
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 426998
+Filename: libffmpeg_0.5.4-2_ramips.ipk
+Size: 426604
+MD5Sum: e99426415ad1f364344d041d1627468c
+Description:  FFmpeg libraries
+
+Package: libgcc
+Version: 4.3.3+cs-43.32
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 25015
+Filename: libgcc_4.3.3+cs-43.32_ramips.ipk
+Size: 25523
+MD5Sum: 5ec84646022baee61a8e4904a9c6e673
+Description:  GCC support library
+
+Package: libip4tc
+Version: 1.4.6-3.1
+Depends: 
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 9863
+Filename: libip4tc_1.4.6-3.1_ramips.ipk
+Size: 10470
+MD5Sum: 1d29d0c641e8d8a74ac7c8a93957ca70
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.6-3.1
+Depends: 
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 10335
+Filename: libip6tc_1.4.6-3.1_ramips.ipk
+Size: 10971
+MD5Sum: cd400b2bdf32ca9a460055f7d822ad28
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiwinfo
+Version: 16
+Depends: libnl-tiny, liblua, lua
+Provides: 
+Source: feeds/luci/iwinfo
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 21156
+Filename: libiwinfo_16_ramips.ipk
+Size: 21766
+MD5Sum: 556ae3b054f69e5c28d5574351991a61
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: liblua
+Version: 5.1.4-7
+Depends: 
+Provides: 
+Source: package/lua
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 80543
+Filename: liblua_5.1.4-7_ramips.ipk
+Size: 80986
+MD5Sum: 752c405a61aa27a3b2c14170e6aceabf
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: liblzo
+Version: 2.04-1
+Depends: 
+Provides: 
+Source: feeds/packages/libs/lzo
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 36636
+Filename: liblzo_2.04-1_ramips.ipk
+Size: 37317
+MD5Sum: 7385f2ad52822ae5cd9bd2c0da134493
+Description:  LZO is a data compression library which is suitable for data de-/compression in
+ real-time. This means it favours speed over compression ratio.
+
+Package: libminiupnpc
+Version: 1.5-1
+Depends: 
+Provides: 
+Source: feeds/packages/net/miniupnpc
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 12365
+Filename: libminiupnpc_1.5-1_ramips.ipk
+Size: 12935
+MD5Sum: a9aea91ddc39ed12ae449d194808ff04
+Description:  Lightweight UPnP library
+
+Package: libncurses
+Version: 5.7-2
+Depends: 
+Provides: 
+Source: package/ncurses
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 116458
+Filename: libncurses_5.7-2_ramips.ipk
+Size: 115214
+MD5Sum: a3f6e256061ec9481feda1073f30849e
+Description:  Terminal handling library
+
+Package: libnl-tiny
+Version: 0.1-1
+Depends: 
+Provides: 
+Source: package/libnl-tiny
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 12476
+Filename: libnl-tiny_0.1-1_ramips.ipk
+Size: 13086
+MD5Sum: 3fb628c16d746a4f7fa9ac69035c2dba
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 0.9.8p-1
+Depends: zlib
+Provides: 
+Source: package/openssl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 504381
+Filename: libopenssl_0.9.8p-1_ramips.ipk
+Size: 496490
+MD5Sum: fe512efb7ffed1190aea49cdf137e5ba
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcap
+Version: 1.0.0-2
+Depends: 
+Provides: 
+Source: package/libpcap
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 74856
+Filename: libpcap_1.0.0-2_ramips.ipk
+Size: 75479
+MD5Sum: 3a2427c8ac454e8b1d77ec6abb55d9a4
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libpng
+Version: 1.2.44-1
+Depends: zlib
+Provides: 
+Source: feeds/packages/libs/libpng
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 127223
+Filename: libpng_1.2.44-1_ramips.ipk
+Size: 127763
+MD5Sum: e3823aade6ac4723bac018a12a35ccfd
+Description:  A PNG format files handling library
+
+Package: libpthread
+Version: 0.9.30.1-43.32
+Depends: librt
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 18896
+Filename: libpthread_0.9.30.1-43.32_ramips.ipk
+Size: 19493
+MD5Sum: bb981f11393a6e7743488320f6d1c431
+Description:  POSIX thread library
+
+Package: libreadline
+Version: 5.2-2
+Depends: 
+Provides: 
+Source: package/libreadline
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 107692
+Filename: libreadline_5.2-2_ramips.ipk
+Size: 107971
+MD5Sum: c31e1f76cc9dee07acbd85b509684dbb
+Description:  The Readline library provides a set of functions for use by applications 
+ that allow users to edit command lines as they are typed in. Both Emacs 
+ and vi editing modes are available. The Readline library includes 
+ additional functions to maintain a list of previously-entered command 
+ lines, to recall and perhaps reedit those lines, and perform csh-like 
+ history expansion on previous commands.
+
+Package: librt
+Version: 0.9.30.1-43.32
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1473
+Filename: librt_0.9.30.1-43.32_ramips.ipk
+Size: 2113
+MD5Sum: d1c616105946e73a021ba0c1c6971571
+Description:  POSIX.1b RealTime extension library
+
+Package: libstdcpp
+Version: 4.3.3+cs-43.32
+Depends: 
+Provides: 
+Source: package/base-files
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 224388
+Filename: libstdcpp_4.3.3+cs-43.32_ramips.ipk
+Size: 223456
+MD5Sum: ebdec04b5151454bc3b0488c99ae7750
+Description:  GNU Standard C++ Library v3
+
+Package: libuci-lua
+Version: 12012009.7-4
+Depends: libuci, liblua
+Provides: 
+Source: package/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 5948
+Filename: libuci-lua_12012009.7-4_ramips.ipk
+Size: 6559
+MD5Sum: 72e34f51c3306e32e76e069fd445e88e
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 12012009.7-4
+Depends: 
+Provides: 
+Source: package/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 18114
+Filename: libuci_12012009.7-4_ramips.ipk
+Size: 18731
+MD5Sum: 1d9b15bbd0a9f3368153fc6d4f6f41ff
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libupnp
+Version: 1.6.12-1
+Depends: libpthread
+Provides: 
+Source: feeds/packages/libs/libupnp
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 84025
+Filename: libupnp_1.6.12-1_ramips.ipk
+Size: 84712
+MD5Sum: 5f75844fcba242dcc3fdc01a7681c178
+Description:  The portable SDK for UPnP Devices (libupnp) provides developers with an API and
+ open source code for building control points, devices, and bridges that are
+ compliant with Version 1.0 of the  Universal Plug and Play Device Architecture
+ Specification.
+
+Package: libusb
+Version: 0.1.12-2
+Depends: 
+Provides: 
+Source: feeds/packages/libs/libusb
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 16183
+Filename: libusb_0.1.12-2_ramips.ipk
+Size: 16725
+MD5Sum: bbf95023d8757bc5be72357c5b1ac3fe
+Description:  A library for accessing Linux USB devices
+
+Package: libuuid
+Version: 1.41.11-1
+Depends: 
+Provides: 
+Source: package/e2fsprogs
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 6987
+Filename: libuuid_1.41.11-1_ramips.ipk
+Size: 7661
+MD5Sum: baaad4bbedc5edbdc935a84906870275
+Description:  Library for generating DCE compatible Universally Unique Identifiers.
+
+Package: libwxbase
+Version: 2.8.10-1
+Depends: libexpat, libstdcpp, zlib
+Provides: 
+Source: feeds/packages/libs/wxbase
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 452289
+Filename: libwxbase_2.8.10-1_ramips.ipk
+Size: 451368
+MD5Sum: 9d40d0f162fcc0b9617b73303f422131
+Description:  wxBase contains most of the non-GUI classes from the wxWindows cross-
+ -platform C++ framework. There are 2 categories: generally useful portable 
+ code (date/time handling, command line parsing, regular expression support) 
+ and wrappers for the OS objects (files, directories, sockets, threads, 
+ etc.) allowing you to write portable programs easily.
+
+Package: libxml2
+Version: 2.7.8-1
+Depends: libpthread, zlib
+Provides: 
+Source: feeds/packages/libs/libxml2
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 468721
+Filename: libxml2_2.7.8-1_ramips.ipk
+Size: 466854
+MD5Sum: e021edec0a48677eb40ef0308a651742
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libxtables
+Version: 1.4.6-3.1
+Depends: 
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 10392
+Filename: libxtables_1.4.6-3.1_ramips.ipk
+Size: 11022
+MD5Sum: 76b6f1ee4648c0c9c2ff56a3b4a11143
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: lua
+Version: 5.1.4-7
+Depends: liblua
+Provides: 
+Source: package/lua
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 8266
+Filename: lua_5.1.4-7_ramips.ipk
+Size: 9041
+MD5Sum: 0ae4eb8b36d4c5d85dd9191807e33d0e
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luci-app-ddns
+Version: trunk+svn-1
+Depends: ddns-scripts
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 3987
+Filename: luci-app-ddns_trunk+svn-1_ramips.ipk
+Size: 4618
+MD5Sum: 30f1d2bd18c4ef4c5c9b81f00f4960d3
+Description:  Dynamic DNS configuration module
+
+Package: luci-app-firewall
+Version: trunk+svn-1
+Depends: firewall
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 11500
+Filename: luci-app-firewall_trunk+svn-1_ramips.ipk
+Size: 12079
+MD5Sum: 0dff6e5b4d9496e63f09500ccc58ebbb
+Description:  Firmware and Portforwarding application
+
+Package: luci-app-hd-idle
+Version: trunk+svn-1
+Depends: hd-idle
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 1785
+Filename: luci-app-hd-idle_trunk+svn-1_ramips.ipk
+Size: 2535
+MD5Sum: 760f001c8bc0dc67472ea97ff6e633ab
+Description:  Hard Disk Idle Spin-Down module
+
+Package: luci-app-ipid
+Version: trunk+svn-1
+Depends: iptables, iptables-mod-filter, iptables-mod-ipopt
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 3849
+Filename: luci-app-ipid_trunk+svn-1_ramips.ipk
+Size: 4712
+MD5Sum: 8e374bc90e7ea2f4566e24b6f800398c
+Description:  ipid configuration module
+
+Package: luci-app-ntpc
+Version: trunk+svn-1
+Depends: ntpclient
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 1870
+Filename: luci-app-ntpc_trunk+svn-1_ramips.ipk
+Size: 2493
+MD5Sum: 7530cf45dbabaa1e0b4a2cd1a02ffc98
+Description:  NTP time synchronisation configuration module
+
+Package: luci-app-nwan
+Version: trunk+svn-1
+Depends: ip, kmod-macvlan, iptables, iptables-mod-conntrack, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 27314
+Filename: luci-app-nwan_trunk+svn-1_ramips.ipk
+Size: 28300
+MD5Sum: a503df24d7f2fd77e0d892031ae1c982
+Description:  nwan configuration module
+
+Package: luci-app-openvpn
+Version: trunk+svn-1
+Depends: openvpn
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 17934
+Filename: luci-app-openvpn_trunk+svn-1_ramips.ipk
+Size: 18513
+MD5Sum: 97362c8abd3c4a50b92b3027d6ba9f4c
+Description:  LuCI Support for OpenVPN
+
+Package: luci-app-qosv4
+Version: trunk+svn-1
+Depends: tc, kmod-sched, iptables, iptables-mod-filter, iptables-mod-ipopt, iptables-mod-conntrack-extra, iptables-mod-imq, iptables-mod-hashlimit, iptables-mod-connlimit
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 8498
+Filename: luci-app-qosv4_trunk+svn-1_ramips.ipk
+Size: 9471
+MD5Sum: 90be84691cf76fcaf7525e0a21424b17
+Description:  qosv4 configuration module
+
+Package: luci-app-radvd
+Version: trunk+svn-1
+Depends: radvd
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 9346
+Filename: luci-app-radvd_trunk+svn-1_ramips.ipk
+Size: 10125
+MD5Sum: 690e86497b5b419c75ad3e4a5f02423e
+Description:  LuCI Support for Radvd
+
+Package: luci-app-transmission
+Version: trunk+svn-1
+Depends: transmission-daemon, transmission-remote, transmission-web
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 5571
+Filename: luci-app-transmission_trunk+svn-1_ramips.ipk
+Size: 6380
+MD5Sum: 2474c75b87da1c95acb14f5e8d82188c
+Description:  transmission configuration module
+
+Package: luci-app-upnp
+Version: trunk+svn-1
+Depends: miniupnpd
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 5651
+Filename: luci-app-upnp_trunk+svn-1_ramips.ipk
+Size: 6280
+MD5Sum: 45de57fda5e2ab8d4ec76d659a330225
+Description:  Universal Plug & Play configuration module
+
+Package: luci-app-webshell
+Version: trunk+svn-1
+Depends: PACKAGE_luci-app-webshell
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 2713
+Filename: luci-app-webshell_trunk+svn-1_ramips.ipk
+Size: 3319
+MD5Sum: 1f936c703766dc9903399d3f7eaafabb
+Description:  webshell configuration module
+
+Package: luci-app-wol
+Version: trunk+svn-1
+Depends: etherwake
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 2965
+Filename: luci-app-wol_trunk+svn-1_ramips.ipk
+Size: 3576
+MD5Sum: c865b94c41ad7e0d2c9dc26b949d7431
+Description:  LuCI Support for Wake-on-LAN
+
+Package: luci-i18n-chinese
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 19257
+Filename: luci-i18n-chinese_trunk+svn-1_ramips.ipk
+Size: 20036
+MD5Sum: 60123561e96dae96d17a4f6250b8345d
+Description:  Chinese (by Chinese Translators)
+
+Package: luci-i18n-english
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 507
+Filename: luci-i18n-english_trunk+svn-1_ramips.ipk
+Size: 1221
+MD5Sum: 315da4db6c989ea6e6497ad43c4fdd1e
+Description:  English
+
+Package: luci-lib-core
+Version: trunk+svn-1
+Depends: lua, libuci-lua
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 29675
+Filename: luci-lib-core_trunk+svn-1_ramips.ipk
+Size: 30280
+MD5Sum: 53be2aa8bc6dd75a34bb6bcec155132b
+Description:  LuCI core libraries
+
+Package: luci-lib-ipkg
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 1899
+Filename: luci-lib-ipkg_trunk+svn-1_ramips.ipk
+Size: 2544
+MD5Sum: fe757b4f14243d8cb5f0edd84eacec67
+Description:  LuCI IPKG/OPKG call abstraction library
+
+Package: luci-lib-lmo
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 4178
+Filename: luci-lib-lmo_trunk+svn-1_ramips.ipk
+Size: 4767
+MD5Sum: 1a185f08ac3d0db7a0e4af7fd6c78d65
+Description:  LuCI LMO I18N library
+
+Package: luci-lib-nixio
+Version: trunk+svn-1
+Depends: luci-lib-core
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 32169
+Filename: luci-lib-nixio_trunk+svn-1_ramips.ipk
+Size: 32730
+MD5Sum: 0a88f2560f54eab77afa3964b0ca50ac
+Description:  NIXIO POSIX library
+
+Package: luci-lib-sys
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 17419
+Filename: luci-lib-sys_trunk+svn-1_ramips.ipk
+Size: 18027
+MD5Sum: 8c2e0732cdcb10dfbbfaeb03767a6843
+Description:  LuCI Linux/POSIX system library
+
+Package: luci-lib-web
+Version: trunk+svn-1
+Depends: luci-lib-core, luci-lib-sys, luci-lib-nixio, luci-lib-core, luci-sgi-cgi, luci-lib-lmo
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 61459
+Filename: luci-lib-web_trunk+svn-1_ramips.ipk
+Size: 62271
+MD5Sum: ccdd59044af277a52a38529211a8c9a4
+Description:  MVC Webframework
+
+Package: luci-mod-admin-core
+Version: trunk+svn-1
+Depends: luci-lib-web, luci-proto-core, luci-i18n-english, luci-i18n-chinese
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 5714
+Filename: luci-mod-admin-core_trunk+svn-1_ramips.ipk
+Size: 6482
+MD5Sum: f6f12df64a69b9fdb965e063fcb5278d
+Description:  Web UI Core module
+
+Package: luci-mod-admin-full
+Version: trunk+svn-1
+Depends: luci-mod-admin-core, luci-lib-ipkg
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 85696
+Filename: luci-mod-admin-full_trunk+svn-1_ramips.ipk
+Size: 86102
+MD5Sum: 0cf268729062e893094df76f81b0379f
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-3g
+Version: trunk+svn-1
+Depends: comgt
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 2010
+Filename: luci-proto-3g_trunk+svn-1_ramips.ipk
+Size: 2644
+MD5Sum: dc2e18a436db88fc71fe3183df3e5c03
+Description:  Support for 3G
+
+Package: luci-proto-6x4
+Version: trunk+svn-1
+Depends: 6in4, 6to4
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 2712
+Filename: luci-proto-6x4_trunk+svn-1_ramips.ipk
+Size: 3318
+MD5Sum: 26759cff9d921acbf451f912c1d4cac4
+Description:  Support for 6in4/6to4
+
+Package: luci-proto-core
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 2120
+Filename: luci-proto-core_trunk+svn-1_ramips.ipk
+Size: 2722
+MD5Sum: 8427504aa2515634cc1d355219b51eb3
+Description:  Support for static/dhcp/none
+
+Package: luci-proto-ppp
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 3762
+Filename: luci-proto-ppp_trunk+svn-1_ramips.ipk
+Size: 4392
+MD5Sum: f96cad04c0d68e9cdd51308980b30200
+Description:  Support for PPP/PPPoE/PPPoA
+
+Package: luci-proto-pptp
+Version: trunk+svn-1
+Depends: pptp
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 880
+Filename: luci-proto-pptp_trunk+svn-1_ramips.ipk
+Size: 1494
+MD5Sum: c1e686234f82cadc4f79de9726f5ac2b
+Description:  Support for PPtP
+
+Package: luci-sgi-cgi
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 1645
+Filename: luci-sgi-cgi_trunk+svn-1_ramips.ipk
+Size: 2290
+MD5Sum: 297c4c0aa1617e9a23b7600716561d68
+Description:  CGI Gateway behind existing Webserver
+
+Package: luci-sgi-uhttpd
+Version: trunk+svn-1
+Depends: uhttpd, uhttpd-mod-lua
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 1459
+Filename: luci-sgi-uhttpd_trunk+svn-1_ramips.ipk
+Size: 2104
+MD5Sum: cc10d78832e956f77b30275640eba009
+Description:  Binding for the uHTTPd server
+
+Package: luci-ssl
+Version: trunk+svn-1
+Depends: luci, uhttpd-mod-tls, px5g
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 105
+Filename: luci-ssl_trunk+svn-1_ramips.ipk
+Size: 724
+MD5Sum: 622a515066677ae6b2864c4e69e0c58c
+Description:  Standard OpenWrt set with HTTPS support
+
+Package: luci-theme-base
+Version: trunk+svn-1
+Depends: 
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 24373
+Filename: luci-theme-base_trunk+svn-1_ramips.ipk
+Size: 24978
+MD5Sum: 188f932d0d0c779fc7bf1a93d0bb5ce0
+Description:  Common base for all themes
+
+Package: luci-theme-bootstrap
+Version: trunk+svn-1
+Depends: luci-theme-base
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 12278
+Filename: luci-theme-bootstrap_trunk+svn-1_ramips.ipk
+Size: 12952
+MD5Sum: 5c02a20a864f50e0a305af4ab281cf4e
+Description:  Bootstrap Theme
+
+Package: luci-theme-openwrt
+Version: trunk+svn-1
+Depends: luci-theme-base
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 6725
+Filename: luci-theme-openwrt_trunk+svn-1_ramips.ipk
+Size: 7505
+MD5Sum: 011b80f5546384c52c55ae1f790a3d31
+Description:  OpenWrt.org (default)
+
+Package: luci
+Version: trunk+svn-1
+Depends: uhttpd, luci-mod-admin-full, luci-theme-openwrt, luci-app-firewall, luci-proto-core, luci-proto-ppp, libiwinfo
+Provides: 
+Source: feeds/luci/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: ramips
+Installed-Size: 105
+Filename: luci_trunk+svn-1_ramips.ipk
+Size: 789
+MD5Sum: e6237cedb4550ba8ef9fe870959df651
+Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
+
+Package: maccalc
+Version: 1
+Depends: 
+Provides: 
+Source: package/maccalc
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 2339
+Filename: maccalc_1_ramips.ipk
+Size: 2965
+MD5Sum: 3865655e1d97989e1c6e12fdbf1acc70
+Description:  This package contains a MAC address manipulation utility.
+
+Package: miniupnpd
+Version: 1.5.20110309-2
+Depends: iptables, libip4tc
+Provides: 
+Source: feeds/packages/net/miniupnpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: ramips
+Installed-Size: 30998
+Filename: miniupnpd_1.5.20110309-2_ramips.ipk
+Size: 31684
+MD5Sum: 98da8e37980bade11895813ded725a49
+Description:  Lightweight UPnP daemon
+
+Package: miredo-client
+Version: 1.2.3-1
+Depends: miredo-common
+Provides: 
+Source: feeds/packages/ipv6/miredo
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 13053
+Filename: miredo-client_1.2.3-1_ramips.ipk
+Size: 13619
+MD5Sum: 23a387f5638ae6e71f79be88d29c764c
+Description:  Teredo (IPv6 tunneling over UDP through NAT) client and relay daemon
+
+Package: miredo-common
+Version: 1.2.3-1
+Depends: libpthread, uclibcxx, kmod-ipv6, kmod-tun
+Provides: 
+Source: feeds/packages/ipv6/miredo
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 46653
+Filename: miredo-common_1.2.3-1_ramips.ipk
+Size: 47330
+MD5Sum: 9597db935b238917e75013a5d76b4b08
+Description:  Teredo (IPv6 tunneling over UDP through NAT) shared libraries
+
+Package: mtd
+Version: 13
+Depends: 
+Provides: 
+Source: package/mtd
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 8395
+Filename: mtd_13_ramips.ipk
+Size: 9041
+MD5Sum: 94c4c327a0de31df751b0d2e25d98b12
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: mutt
+Version: 1.5.21-1
+Depends: libopenssl, libncurses
+Provides: 
+Source: feeds/packages/mail/mutt
+Section: mail
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 318169
+Filename: mutt_1.5.21-1_ramips.ipk
+Size: 317695
+MD5Sum: ca6f48399ec74158342d68c0c003e2fd
+Description:  Mutt is a small but very powerful text-based mail client for Unix
+ operating systems.
+
+Package: ntfs-3g
+Version: 2011.4.12-1-fuseint
+Depends: kmod-fuse, libpthread
+Provides: 
+Source: feeds/packages/utils/ntfs-3g
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: ramips
+Installed-Size: 178916
+Filename: ntfs-3g_2011.4.12-1-fuseint_ramips.ipk
+Size: 179765
+MD5Sum: 72e45821a321e1bf97f726dd52a144e7
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: ntpclient
+Version: 2007_365-4
+Depends: librt
+Provides: 
+Source: feeds/packages/net/ntpclient
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 16393
+Filename: ntpclient_2007_365-4_ramips.ipk
+Size: 16997
+MD5Sum: 1ef2475c5dce74dc359cf05db406be6a
+Description:  NTP client for setting system time from NTP servers.
+
+Package: openssh-client
+Version: 5.8p2-1
+Depends: libopenssl, zlib, libgcc
+Provides: 
+Source: feeds/packages/net/openssh
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips
+Installed-Size: 170751
+Filename: openssh-client_5.8p2-1_ramips.ipk
+Size: 171074
+MD5Sum: d962102ad1d66648695db11fba1fdea9
+Description:  OpenSSH client.
+
+Package: openssh-keygen
+Version: 5.8p2-1
+Depends: libopenssl, zlib, libgcc
+Provides: 
+Source: feeds/packages/net/openssh
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips
+Installed-Size: 66904
+Filename: openssh-keygen_5.8p2-1_ramips.ipk
+Size: 66843
+MD5Sum: 8afbd04def9552f789ecd2bc4d1f6096
+Description:  OpenSSH keygen.
+
+Package: openssh-sftp-server
+Version: 5.8p2-1
+Depends: libgcc
+Provides: 
+Source: feeds/packages/net/openssh
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips
+Installed-Size: 26374
+Filename: openssh-sftp-server_5.8p2-1_ramips.ipk
+Size: 26914
+MD5Sum: 699e2efe79d6c526789a3fd6c78f84fc
+Description:  OpenSSH SFTP server.
+
+Package: openvpn
+Version: 2.1.4-3
+Depends: kmod-tun, libopenssl, liblzo
+Provides: 
+Source: feeds/packages/net/openvpn
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 162861
+Filename: openvpn_2.1.4-3_ramips.ipk
+Size: 162823
+MD5Sum: f94872841bdcce36d746704da933272a
+Description:  Open source VPN solution using SSL
+
+Package: opkg
+Version: 576-1
+Depends: 
+Provides: 
+Source: package/opkg
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ramips
+Installed-Size: 56020
+Filename: opkg_576-1_ramips.ipk
+Size: 56839
+MD5Sum: 6f0e7cc696878fecf208494146ffa297
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: polipo
+Version: 1.0.4.1-2
+Depends: 
+Provides: 
+Source: feeds/packages/net/polipo
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Gabriel Kerneis <kerneis@pps.jussieu.fr>
+Architecture: ramips
+Installed-Size: 104255
+Filename: polipo_1.0.4.1-2_ramips.ipk
+Size: 104993
+MD5Sum: 53048e27f5a511c74c615b0048e4ff1e
+Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy, 
+ a proxy server). While Polipo was designed to be used by one person or a 
+ small group of people, there is nothing that prevents it from being used 
+ by a larger group.
+
+Package: ppp-mod-pppoe
+Version: 2.4.5-4
+Depends: kmod-pppoe
+Provides: 
+Source: package/ppp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ramips
+Installed-Size: 9111
+Filename: ppp-mod-pppoe_2.4.5-4_ramips.ipk
+Size: 9731
+MD5Sum: f73b963780c1dff0d55677fbe3747051
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.5-4
+Depends: kmod-ppp, libpthread
+Provides: 
+Source: package/ppp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ramips
+Installed-Size: 111275
+Filename: ppp_2.4.5-4_ramips.ipk
+Size: 111957
+MD5Sum: 0e547212d53e32c7c237b7616cac7098
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: pptp
+Version: 1.7.1-4
+Depends: ppp, kmod-gre, resolveip
+Provides: 
+Source: package/pptp
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 26438
+Filename: pptp_1.7.1-4_ramips.ipk
+Size: 27056
+MD5Sum: 60ff1bd9d22e8c66f0be2bf0d3e9f1c2
+Description:  This package contains a PPTP (Point-to-Point Tunneling Protocol) client.
+
+Package: px5g
+Version: 1
+Depends: 
+Provides: 
+Source: package/px5g
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 27767
+Filename: px5g_1_ramips.ipk
+Size: 28489
+MD5Sum: 8b8920be6da5b218f44e0b9e4d0112f4
+Description:  Px5g is a tiny standalone X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: radvd
+Version: 1.8-3
+Depends: kmod-ipv6
+Provides: 
+Source: feeds/packages/ipv6/radvd
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 33686
+Filename: radvd_1.8-3_ramips.ipk
+Size: 34453
+MD5Sum: 1a4fccbc3cbcc9e6c838022735f2677c
+Description:  radvd is the router advertisement daemon for IPv6. It listens to router
+ solicitations and sends router advertisements as described in "Neighbor
+ Discovery for IP Version 6 (IPv6)" (RFC 4861).  With these advertisements hosts
+ can automatically configure their addresses and some other parameters. They also
+ can choose a default router based on these advertisements.
+
+Package: resolveip
+Version: 1
+Depends: 
+Provides: 
+Source: package/resolveip
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1914
+Filename: resolveip_1_ramips.ipk
+Size: 2669
+MD5Sum: ac4deb29ff534d59b033ada260a0aecf
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: ssmtp
+Version: 2.64-3
+Depends: libopenssl
+Provides: 
+Source: feeds/packages/mail/ssmtp
+Section: mail
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 11828
+Filename: ssmtp_2.64-3_ramips.ipk
+Size: 12697
+MD5Sum: 0723b9c99eb5aef13f7f9b69c9717254
+Description:  A secure, effective and simple way of getting mail off a system to your
+ mail hub. It contains no suid-binaries or other dangerous things - no
+ mail spool to poke around in, and no daemons running in the background.
+ mail is simply forwarded to the configured mailhost. Extremely easy
+ configuration.
+
+Package: swap-utils
+Version: 2.13.0.1-4
+Depends: libblkid, libuuid
+Provides: 
+Source: package/util-linux-ng
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 12490
+Filename: swap-utils_2.13.0.1-4_ramips.ipk
+Size: 13124
+MD5Sum: 4c70c2f2b666bb79180a61a5688fd487
+Description:  This package contains a collection of tools for managing swap space:
+ - mkswap
+ - swapon
+ - swapoff
+
+Package: swconfig
+Version: 9
+Depends: libuci, libnl-tiny
+Provides: 
+Source: package/swconfig
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 10743
+Filename: swconfig_9_ramips.ipk
+Size: 11352
+MD5Sum: 36239e3b11d1dba81fe8986c6d982998
+Description:  Switch configuration utility
+
+Package: tc
+Version: 2.6.35-3
+Depends: kmod-sched
+Provides: 
+Source: package/iproute2
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 94528
+Filename: tc_2.6.35-3_ramips.ipk
+Size: 95091
+MD5Sum: 1b71a56d3c5eed8266c6d50a5c8a0989
+Description:  Traffic control utility
+
+Package: transmission-daemon
+Version: 2.61-1
+Depends: libcurl, libopenssl, libpthread, libevent2, librt, libminiupnpc
+Provides: 
+Source: feeds/dreambox_packages/transmission
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ramips
+Installed-Size: 183816
+Filename: transmission-daemon_2.61-1_ramips.ipk
+Size: 184341
+MD5Sum: 7b3e3adb38cff6988bcb3d04b04bffb1
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-remote
+Version: 2.61-1
+Depends: libcurl, libopenssl, libpthread, libevent2, librt, libminiupnpc
+Provides: 
+Source: feeds/dreambox_packages/transmission
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ramips
+Installed-Size: 192614
+Filename: transmission-remote_2.61-1_ramips.ipk
+Size: 192974
+MD5Sum: d8bb1d9cfa6315c0ddceacf96735fb98
+Description:  CLI remote interface for transmission.
+
+Package: transmission-web
+Version: 2.61-1
+Depends: transmission-daemon
+Provides: 
+Source: feeds/dreambox_packages/transmission
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ramips
+Installed-Size: 217492
+Filename: transmission-web_2.61-1_ramips.ipk
+Size: 218181
+MD5Sum: d4d2e0c4ebacd8723508f14ad760f8be
+Description:  Webinterface resources for transmission.
+
+Package: tune2fs
+Version: 1.41.11-1
+Depends: e2fsprogs
+Provides: 
+Source: package/e2fsprogs
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 16395
+Filename: tune2fs_1.41.11-1_ramips.ipk
+Size: 16986
+MD5Sum: bc4412e48c9b9cf93fdf92008684d1bc
+Description:  Ext2 Filesystem tune utility
+
+Package: uci
+Version: 12012009.7-4
+Depends: libuci
+Provides: 
+Source: package/uci
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 6754
+Filename: uci_12012009.7-4_ramips.ipk
+Size: 7434
+MD5Sum: 9280cb86a262bdf02cd97b67c4ccb08e
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibcxx
+Version: 0.2.2-3
+Depends: 
+Provides: 
+Source: feeds/packages/libs/uclibc++
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 55394
+Filename: uclibcxx_0.2.2-3_ramips.ipk
+Size: 55936
+MD5Sum: f9156a422f0f3e8cc15cec7317c0842a
+Description:  C++ library for embedded systems
+
+Package: udevtrigger
+Version: 106-1
+Depends: 
+Provides: 
+Source: package/udevtrigger
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Geoff Levand <geoffrey.levand@am.sony.com>
+Architecture: ramips
+Installed-Size: 8724
+Filename: udevtrigger_106-1_ramips.ipk
+Size: 9324
+MD5Sum: 20f09c6fde92139223f48983bfb8d7a2
+Description:  Small utility to request kernel devices events for coldplug
+
+Package: uhttpd-mod-lua
+Version: 28
+Depends: uhttpd, liblua
+Provides: 
+Source: package/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ramips
+Installed-Size: 8750
+Filename: uhttpd-mod-lua_28_ramips.ipk
+Size: 9346
+MD5Sum: a53cf1483350a49b375f95970f67191e
+Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+
+Package: uhttpd-mod-tls
+Version: 28
+Depends: uhttpd, libcyassl
+Provides: 
+Source: package/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ramips
+Installed-Size: 5421
+Filename: uhttpd-mod-tls_28_ramips.ipk
+Size: 6046
+MD5Sum: e8f0dc09d41813b2b9ca203ae62aa88a
+Description:  The TLS plugin adds HTTPS support to uHTTPd.
+
+Package: uhttpd
+Version: 28
+Depends: 
+Provides: 
+Source: package/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: ramips
+Installed-Size: 21623
+Filename: uhttpd_28_ramips.ipk
+Size: 22272
+MD5Sum: 7e058eeddfedaa57c2e50e57ae4129c9
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: usb-modeswitch-data
+Version: 20120120-1
+Depends: usb-modeswitch
+Provides: 
+Source: feeds/packages/utils/usb-modeswitch-data
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 10504
+Filename: usb-modeswitch-data_20120120-1_ramips.ipk
+Size: 10839
+MD5Sum: 11a45412726c48c253372fd80493c76a
+Description:  Configuration database for usb-modeswitch.
+ Contains definitions for many USB devices required to
+ autoswitch "flip flop" gear.
+
+Package: usb-modeswitch
+Version: 1.2.3-2
+Depends: libusb
+Provides: 
+Source: feeds/packages/utils/usb-modeswitch
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 16944
+Filename: usb-modeswitch_1.2.3-2_ramips.ipk
+Size: 17640
+MD5Sum: d59ee8669261ead043bd7e78d060517a
+Description:  A mode switching tool for controlling
+ "flip flop" (multiple device) USB gear.
+
+Package: uuidgen
+Version: 1.41.11-1
+Depends: libuuid
+Provides: 
+Source: package/e2fsprogs
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 1672
+Filename: uuidgen_1.41.11-1_ramips.ipk
+Size: 2408
+MD5Sum: 7fd498b604ff9e3b2a6ee2d781ad84f6
+Description:  uuidgen program creates a new universally unique identifier (UUID) 
+ using the libuuid library. The new UUID can reasonably be considered 
+ unique among all UUIDs created on the local system, and among UUIDs 
+ created on other systems in the past and in the future.
+
+Package: wget
+Version: 1.12-3
+Depends: libopenssl
+Provides: 
+Source: feeds/packages/net/wget
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 135723
+Filename: wget_1.12-3_ramips.ipk
+Size: 135848
+MD5Sum: 2640c87630af230b626d10f71f98ad33
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wide-dhcpv6-client
+Version: 20080615-6
+Depends: kmod-ipv6
+Provides: 
+Source: feeds/packages/ipv6/wide-dhcpv6
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Andrew Byrne <openwrt@andy.id.au>
+Architecture: ramips
+Installed-Size: 61139
+Filename: wide-dhcpv6-client_20080615-6_ramips.ipk
+Size: 61977
+MD5Sum: daec8e523ac273dfd223251f565af4b8
+Description:  WIDE-DHCPv6 is an open-source implementation of Dynamic Host Configuration Protocol
+ for IPv6 (DHCPv6) originally developed by the KAME project. The implementation
+ mainly conforms to the following standards: RFC3315,3319,3633,3646,4075,4272,etc.
+ 
+ This package installs the client component.
+
+Package: wide-dhcpv6-control
+Version: 20080615-6
+Depends: kmod-ipv6
+Provides: 
+Source: feeds/packages/ipv6/wide-dhcpv6
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Andrew Byrne <openwrt@andy.id.au>
+Architecture: ramips
+Installed-Size: 7843
+Filename: wide-dhcpv6-control_20080615-6_ramips.ipk
+Size: 8664
+MD5Sum: f2f8f4546316df38c56cfe1d9d65c4ac
+Description:  WIDE-DHCPv6 is an open-source implementation of Dynamic Host Configuration Protocol
+ for IPv6 (DHCPv6) originally developed by the KAME project. The implementation
+ mainly conforms to the following standards: RFC3315,3319,3633,3646,4075,4272,etc.
+ 
+ This package installs the client and server control utility.
+
+Package: wide-dhcpv6-relay
+Version: 20080615-6
+Depends: kmod-ipv6
+Provides: 
+Source: feeds/packages/ipv6/wide-dhcpv6
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Andrew Byrne <openwrt@andy.id.au>
+Architecture: ramips
+Installed-Size: 24715
+Filename: wide-dhcpv6-relay_20080615-6_ramips.ipk
+Size: 25421
+MD5Sum: 60ac6d6b6a2063e64f2d098acc5432cd
+Description:  WIDE-DHCPv6 is an open-source implementation of Dynamic Host Configuration Protocol
+ for IPv6 (DHCPv6) originally developed by the KAME project. The implementation
+ mainly conforms to the following standards: RFC3315,3319,3633,3646,4075,4272,etc.
+ 
+ This package installs the relay component.
+
+Package: wide-dhcpv6-server
+Version: 20080615-6
+Depends: kmod-ipv6
+Provides: 
+Source: feeds/packages/ipv6/wide-dhcpv6
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Andrew Byrne <openwrt@andy.id.au>
+Architecture: ramips
+Installed-Size: 57342
+Filename: wide-dhcpv6-server_20080615-6_ramips.ipk
+Size: 58142
+MD5Sum: e74cc22f7c98485e319ffee58c08f121
+Description:  WIDE-DHCPv6 is an open-source implementation of Dynamic Host Configuration Protocol
+ for IPv6 (DHCPv6) originally developed by the KAME project. The implementation
+ mainly conforms to the following standards: RFC3315,3319,3633,3646,4075,4272,etc.
+ 
+ This package installs the server component.
+
+Package: wireless-tools
+Version: 29-4
+Depends: 
+Provides: 
+Source: package/wireless-tools
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 29659
+Filename: wireless-tools_29-4_ramips.ipk
+Size: 30339
+MD5Sum: c5d9a293cea287334c9eaee4a2f2d377
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: wpad-mini
+Version: 20111103-2
+Depends: libnl-tiny
+Provides: 
+Source: package/hostapd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: ramips
+Installed-Size: 196758
+Filename: wpad-mini_20111103-2_ramips.ipk
+Size: 197185
+MD5Sum: 13282ef9de7f0412cef0e72170bfd26b
+Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
+
+Package: zlib
+Version: 1.2.3-5
+Depends: 
+Provides: 
+Source: package/zlib
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: ramips
+Installed-Size: 35639
+Filename: zlib_1.2.3-5_ramips.ipk
+Size: 36297
+MD5Sum: 7eefe9732bd2057df1caaad7f97ed757
+Description:  Library implementing the deflate compression method
+
