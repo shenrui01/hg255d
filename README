@@ -1,1 +1,1 @@
-自己编译的hg255d openwrt固件，支持ipv6，6in4、pptp、openvpn、bt下载等
+自己编译的hg255d openwrt固件，支持aria2（有luci界面） ipv6，6in4、pptp、openvpn、bt下载等
