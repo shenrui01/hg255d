@@ -1,0 +1,91 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2012 NowVideo Forum / animefans_xj
+
+START=99
+
+start() {
+  config_load "aria2"
+  
+  local enabled user config_dir download_dir restore_task queue_size split thread
+  local disable_ipv6 enable_lpd enable_dht listen_port rpc_auth rpc_user rpc_password
+  local extra_cmd cmd_line
+  
+  config_get enabled        main enabled
+  config_get user           main user
+  config_get config_dir     main config_dir
+  config_get download_dir   main download_dir
+  config_get restore_task   main restore_task
+  config_get queue_size     main queue_size
+  config_get split          main split
+  config_get thread         main thread
+  config_get disable_ipv6   main disable_ipv6
+  config_get enable_lpd     main enable_lpd
+  config_get enable_dht     main enable_dht
+  config_get listen_port    main listen_port
+  config_get download_speed main download_speed
+  config_get upload_speed   main upload_speed
+  config_get rpc_auth       main rpc_auth
+  config_get rpc_user       main rpc_user
+  config_get rpc_password   main rpc_password
+  config_get extra_cmd      main extra_cmd
+  config_get cmd_line       main cmd_line
+  
+  local args
+  
+  download_speed="$download_speed"K
+  upload_speed="$upload_speed"K
+  
+  args="--enable-rpc --rpc-listen-all=true --rpc-allow-origin-all -c --dir=$download_dir --max-concurrent-downloads=$queue_size --split=$split --max-connection-per-server=$thread --listen-port=$listen_port --max-overall-download-limit=$download_speed --max-overall-upload-limit=$upload_speed"
+  
+  if [ $restore_task -eq 1 ]; then
+  args="$args --save-session=$config_dir/tasks.list --input-file=$config_dir/tasks.list"
+  fi
+  
+  if [ $disable_ipv6 -eq 1 ]; then
+  args="$args --disable-ipv6=true"
+  else
+  args="$args --disable-ipv6=false"
+  fi
+  
+  if [ $enable_lpd -eq 1 ]; then
+  args="$args --bt-enable-lpd=true"
+  else
+  args="$args --bt-enable-lpd=false"
+  fi
+  
+  if [ $enable_dht -eq 1 ]; then
+  args="$args --enable-dht=true"
+  else
+  args="$args --enable-dht=false"
+  fi
+  
+  if [ $rpc_auth -ne 0 ]; then
+  args="$args --rpc-user=$rpc_user --rpc-passwd=$rpc_password"
+  fi
+  
+  if [ $extra_cmd ]; then
+  args="$args $cmd_line"
+  fi
+  
+  if [ ! -d $config_dir ]; then
+  mkdir -p $config_dir
+  fi
+  
+  if [ ! -f $config_dir/tasks.list ]; then
+  touch $config_dir/tasks.list
+  fi
+  
+  if [! -d $download_dir ]; then
+  mkdir -p $download_dir
+  fi
+  
+  start-stop-daemon -c $user -q -b -x /usr/bin/aria2c -S -- $args
+}
+
+stop() {
+  start-stop-daemon -c $user -q -b -x /usr/bin/aria2c -K
+}
+
+restart() {
+  stop;sleep 10;start
+}

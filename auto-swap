@@ -1,0 +1,14 @@
+swap自动挂载
+openwrt-dreambox/package/block-mount/files/fstab.init
+START=50
+DDNS修复
+openwrt-dreambox/feeds/packages/net/ddns-scripts/files/usr/lib/ddns
+替换修改的
+luci-aria2界面添加
+openwrt-dreambox/feeds/dreambox_packages/aria2
+openwrt-dreambox/feeds/luci/luci/luci/applications/luci-aria2
+添加luci-app-cpulimit//依赖cpulimit-ng
+openwrt-dreambox/feeds/luci/luci/luci/applications
+
+欢迎词
+openwrt-dreambox/package/base-files/files/etc/banner
