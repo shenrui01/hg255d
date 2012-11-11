@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 85
+dl
+.config
+.config.old
+bin
+build_dir
+env
+staging_dir
+tmp
+feeds
+files
+feeds.conf
+logs
+
+END

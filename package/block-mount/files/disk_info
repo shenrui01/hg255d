@@ -1,0 +1,13 @@
+#!/bin/sh
+# disk_smartctl Script
+
+disk_list=$(fdisk -l|grep "Disk \/dev\/"|awk -F ":" '{print $1}'|awk -F " " '{print $2}')
+echo "" > /tmp/disk_smartctl
+for disklist in $disk_list ;
+do
+echo "* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *"  >> /tmp/disk_smartctl
+echo "Disk : $disklist" >> /tmp/disk_smartctl
+ smartctl -d ata -A $disklist -T permissive >> /tmp/disk_smartctl
+done
+cat /tmp/disk_smartctl
+

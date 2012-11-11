@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# Copyright (C) 2011 OpenWrt.org
+#
+
+hg255d_set_leds() {
+	uci batch <<EOF
+set system.usb_led=led
+set system.usb_led.name='USB'
+set system.usb_led.sysfs='hg255d:usb'
+set system.usb_led.trigger='usbdev'
+set system.usb_led.dev='1-1'
+set system.usb_led.interval='50'
+
+set system.wlan_led=led
+set system.wlan_led.name='WLAN'
+set system.wlan_led.sysfs='hg255d:wlan'
+set system.wlan_led.trigger='netdev'
+set system.wlan_led.dev='wlan0'
+set system.wlan_led.mode='link tx rx'
+
+set system.internet_led=led
+set system.internet_led.name='INTERNET'
+set system.internet_led.sysfs='hg255d:internet'
+set system.internet_led.trigger='netdev'
+set system.internet_led.dev='eth0.2'
+set system.internet_led.mode='tx rx'
+
+commit system
+EOF
+}
+
+. /lib/ramips.sh
+
+board=$(ramips_board_name)
+
+if [ "${board}" == "hg255d" ]; then
+	hg255d_set_leds
+fi

@@ -1,0 +1,103 @@
+10
+
+dir
+34135
+svn://svn.openwrt.org/openwrt/trunk/package/libs
+svn://svn.openwrt.org/openwrt
+
+
+
+2012-10-31T19:30:21.123438Z
+34039
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3c298f89-4303-0410-b956-a3cf2f4a3e73
+
+libnfnetlink
+dir
+
+libjson-c
+dir
+
+libnl-tiny
+dir
+
+popt
+dir
+
+ncurses
+dir
+
+openssl
+dir
+
+gettext-full
+dir
+
+gettext
+dir
+
+uclibc++
+dir
+
+sysfsutils
+dir
+
+libevent2
+dir
+
+ocf-crypto-headers
+dir
+
+cyassl
+dir
+
+libbsd
+dir
+
+libnl
+dir
+
+zlib
+dir
+
+libnetfilter-conntrack
+dir
+
+libtool
+dir
+
+libubox
+dir
+
+libiconv-full
+dir
+
+libiconv
+dir
+
+libreadline
+dir
+
+libpcap
+dir
+
+librpc
+dir
+
+libmnl
+dir
+
